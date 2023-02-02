@@ -1,0 +1,37 @@
+{
+  "name": "webfotografia",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "parcel:des": "parcel fuente/index.html",
+    "parcel:prod": "parcel build fuente/index.html",
+    "limpia": "rimraf dist .cache .cache-loader",
+    "des": "npm-run-all limpia parcel:des",
+    "prod": "npm-run-all limpia parcel:prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avianarios/webfotografia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avianarios/webfotografia/issues"
+  },
+  "homepage": "https://github.com/avianarios/webfotografia#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "parcel-plugin-imagemin": "^4.0.2",
+    "sass": "^1.57.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3",
+    "npm-run-all": "^4.1.5",
+    "remixicon": "^2.5.0"
+  }
+
+}
