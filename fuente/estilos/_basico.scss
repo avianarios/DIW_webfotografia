@@ -1,0 +1,11 @@
+.fotos{
+    width: 100%;
+}
+
+.rotada{
+  @each $numero,$grados in $rotaciones {
+    &#{$numero} {
+      transform: rotate($grados);
+    }  
+  }
+}
