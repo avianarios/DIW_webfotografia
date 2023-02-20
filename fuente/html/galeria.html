@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de fotos</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../estilos/principal.scss">
+</head>
+<body class="container">
+    <header class="page-header header">
+<!--                <nav class="navbar navbar-expand-lg fixed-top navbarScroll  border-bottom">-->
+        <nav class="navbar navbar-expand-md navbarScroll border-bottom">
+            <a href="../index.html" class="navbar-brand nav-link"><i class="bi-camera"></i>FotoGraná</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#cursos">Cursos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle disabled" data-bs-toggle="dropdown">Viajes</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item ">Granada</a>
+                            <a href="#" class="dropdown-item ">Pirineos</a>
+                            <a href="#" class="dropdown-item ">Asturias y Cantabria</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./galeria.html">Imágenes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>    
+
+
+    <main>
+        <section class="mt-4 mb-5 pt-5 row rounded-3 border shadow align-items-center">
+<!--            <div class="col-lg-5  text-center">
+                <h1 class="display-4 fw-bold lh-1">FotoGraná</h1>
+                <p class="lead">Somos un grupo de fotógrafos aficionados de Granada que organiza viajes y quedadas para disfrutar de nuestra afición.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-center mb-4 mb-lg-3">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Apúntate</button>
+                </div>
+            </div>-->
+            <div class="col p-3 p-lg-5 pt-lg-3 text-center">
+                <h1 class="display-4 fw-bold lh-1">Galería</h1>
+                <p class="lead">Las siguientes fotografías las han tomado nuestros socios en el transcurso de los viajes que organizamos</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-center mb-4 mb-lg-3">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Apúntate</button>
+                </div>
+            </div>
+            <div class="d-none d-md-block col-sm-4  p-0 shadow-lg rotada1">
+                <img class="fotos rounded-3 " src="../img/fotografo4.jpg" alt="cámaras de fotos">
+            </div>
+            <div class="d-none d-md-block col-sm-4  p-0 shadow-lg rotada2">
+                <img class="fotos rounded-3 " src="../img/fotografo3.jpg" alt="cámaras de fotos">
+            </div>
+<!--            <div class="d-none d-sm-block col-sm-4 offset-lg-2 p-0 shadow-lg rotada3 overflow-hidden ">
+                <img class="fotos rounded-3 " src="../img/fotografo2.jpg" alt="cámaras de fotos">
+            </div>-->
+        </section>
+
+        <section class="container">
+            <div class="row">
+    <!-- Imágenes tomadas de: https://unsplash.com/es/colecciones/ -->
+                <div class=" col-sm-6 col-lg-4">
+                    <div class="img-thumbnail">
+                        <img class="fotos" src="https://source.unsplash.com/collection/928423/480x480">
+                    </div>
+                </div>
+                <div class=" col-sm-6 col-lg-4">
+                    <div class="img-thumbnail">
+                        <img class="fotos" src="https://source.unsplash.com/collection/2001768/480x480">
+                    </div>
+                </div>
+                <div class=" col-sm-6 col-lg-4">
+                    <div class="img-thumbnail">
+                        <img class="fotos" src="https://source.unsplash.com/collection/11649432/480x480">
+                    </div>
+                </div>
+                <div class=" col-sm-6 col-lg-4">
+                    <div class="img-thumbnail">
+                        <img class="fotos" src="https://source.unsplash.com/collection/11716909/480x480">
+                    </div>
+                </div>
+                <div class=" col-sm-6 col-lg-4">
+                    <div class="img-thumbnail">
+                        <img class="fotos" src="https://source.unsplash.com/collection/894/480x480">
+                    </div>
+                </div>
+                <div class=" col-sm-6 col-lg-4">
+                    <div class="img-thumbnail">
+                        <img class="fotos" src="https://source.unsplash.com/collection/181581/480x480">
+                    </div>
+                </div>                                
+            </div>
+        </section>
+
+
+        
+    </main>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-2 my-3 border-top">
+        <div class="col-md-4">
+        <span class="text-muted">© 2023 FotoGraná</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted text-decoration-none" href="#"><i class="bi-twitter"></i></a></li>
+        <li class="ms-3"><a class="text-muted text-decoration-none" href="#"><i class="bi-instagram"></i></a></li>
+        <li class="ms-3"><a class="text-muted text-decoration-none" href="#"><i class="bi-facebook"></i></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
